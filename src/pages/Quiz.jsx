@@ -114,7 +114,7 @@ console.log("quiz", quizData);
           );
         })}
       </div>
-      <div style={{ display: 'flex', justifyContent: 'center', gap: '80px' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', gap: '70px' }}>
         {!isQuiz && (
           <span
             style={{

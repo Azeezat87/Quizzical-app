@@ -68,6 +68,9 @@ font-size: 17px;
 
 .quiz-contents .options{
  margin-top: 10px;
+ display: flex;
+ flex-wrap: wrap;
+ gap: 5px 0px;
 }
 
 .quiz-contents .options > span{
@@ -105,7 +108,6 @@ color: white;
 font-size: 17px;
 }
 
-
 .quiz-contents .options > span.selected-answer {
   background-color: #d6dbf5;
   color: white;
@@ -119,6 +121,16 @@ font-size: 17px;
 .quiz-contents .options > span.incorrect-answer {
   background-color: #F8BCBC;
   color: white;
+}
+
+@media screen and (max-width: 767px){
+  main{
+     background: url('images/top-blobs.png') 200px -120px no-repeat, url('images/bottom-blobs.png') -140px 530px no-repeat;
+     background-color: #F5F7FB;
+   }
+.quiz-contents > .line{
+    width: 335px
+  }
 }
 
 
