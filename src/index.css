@@ -125,7 +125,7 @@ font-size: 17px;
 
 @media screen and (max-width: 767px){
   main{
-     background: url('/images/top-blobs.png') 200px -120px no-repeat, url('/images/bottom-blobs.png') -140px 530px no-repeat;
+     background: url('/images/top-blobs.png') 200px -120px no-repeat, url('/images/bottom-blobs.png') -120px 700px no-repeat;
      background-color: #F5F7FB;
    }
 .quiz-contents > .line{
