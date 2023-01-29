@@ -131,6 +131,17 @@ font-size: 17px;
 .quiz-contents > .line{
     width: 335px;
   }
+  .start-quiz p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #293264;
+    margin-top: -20px;
+    padding: 30px;
+    text-align: center;
+  }
+  .start-quiz button{
+    font-size: 22px;
+  }
 }
 
 

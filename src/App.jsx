@@ -16,7 +16,7 @@ function App() {
         (
           <section className='start-quiz'>
             <h1>Quizzical</h1>
-            <p>Some description if needed</p>
+            <p>Unlock your trivial potential with this thrilling quiz challenge</p>
             <button onClick={() => setNotes(true)}>
               Start Quiz
             </button>
